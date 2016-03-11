@@ -1,0 +1,6 @@
+{
+  "type": "scraper",
+  "runtime": "python-2.7",
+  "data_format": "json",
+  "command": "python top.py --country 'ES' --key 'API_KEY'"
+}
