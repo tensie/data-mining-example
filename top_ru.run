@@ -2,5 +2,6 @@
   "type": "scraper",
   "runtime": "python-2.7",
   "data_format": "json",
-  "command": "python top.py --country 'RU' --key 'API_KEY'"
+  "command": "python top.py --country 'RU' --key 'API_KEY'",
+  "description": "Данный парсер собирает список популярных каналов Youtube в регионе RU"
 }
