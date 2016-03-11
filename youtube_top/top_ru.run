@@ -1,6 +1,9 @@
 {
   "type": "scraper",
   "runtime": "python-2.7",
-  "data_format": "json",
+  "data": {
+    "format": "json",
+    "schema": "youtube_top.schema.json"
+  },
   "command": "python top.py --country 'RU' --key 'API_KEY'"
 }
